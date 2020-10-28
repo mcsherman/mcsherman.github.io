@@ -1,24 +1,42 @@
-@charset "UTF-8";
-/* CSS Document */
 
-
-
-h1 {
-	color:#E6AFF4;
-	background-color: #087;
-}
-
-body{
-	background-color: #83B5ED;	
-}
-
-
-aside li {
-	margin-top: 12px;
-}
+nav{	font-family: Impact, Haettenschweiler, sans-serif;
+	}
+h1 { 	font-family: Impact, Verdana, sans-serif;
+	}
+p{ 	font-family: Georgia, Charcoal, serif;
+	}
+h3{ 	font-family: Charcoal, serif;
+	}
 
 nav li {
-	background-color: #E6AFF4;
 	display:inline;
 	margin-right: 20px;
-}
+	background-color: #E6AFF4;
+	color: #087;
+		}
+
+a:link{
+	text-decoration: none;
+	background-color: #E6AFF4;
+	color: #087;
+		}	  
+
+h1 {
+	color: #E6AFF4;
+	background-color: #087;
+		}
+
+body{
+	width: 960px;
+	margin: 0 auto;
+	padding: 8px;
+	font-size: 12px;
+	background-color: #83B5ED;
+		}
+
+Figure{
+	float:left;
+	padding: 14px;
+	Background: linear-gradient(#087, #83B5ED);
+		}
+
